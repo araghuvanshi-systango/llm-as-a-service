@@ -1,7 +1,7 @@
 import pytest
 from fastapi.testclient import TestClient
 
-from laas.main import app
+from main import app
 
 client = TestClient(app)
 
